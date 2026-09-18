@@ -98,41 +98,6 @@ The VQC consists of parameterized quantum operations and entangling operations. 
 
 The quantum circuit receives a classical representation after the input projection and produces expectation values that are subsequently processed by the output projection.
 
-A simplified workflow is:
-
-Classical Input
-      │
-      ▼
-  FC_in
-      │
-      ▼
- Quantum Encoding
-      │
-      ▼
-     VQC
-      │
-      ▼
- Measurement
-      │
-      ▼
-   FC_out
-      │
-      ▼
- Classical Recurrent Representation
-
-⸻
-
-QPRU, QGRU, and QLSTM
-
-This repository provides implementations of three quantum recurrent architectures.
-
-Model	Classical counterpart	Main idea
-QPRU	PRU	Prototypical recurrent architecture implemented with VQCs
-QGRU	GRU	Quantum implementation of gated recurrent units
-QLSTM	LSTM	Quantum implementation of long short-term memory
-
-The implementations allow the architectures to be studied under a common PennyLane-based framework.
-
 ⸻
 
 Why QPRU?
@@ -170,21 +135,6 @@ Usage
 
 The implementations are provided through Jupyter notebooks.
 
-Start Jupyter:
-
-jupyter notebook
-
-Then open the corresponding notebook and run the cells sequentially.
-
-The notebooks can be used to:
-
-1. Construct the quantum recurrent architectures.
-2. Configure the number of qubits and circuit layers.
-3. Encode classical inputs into quantum states.
-4. Execute the variational quantum circuits.
-5. Obtain quantum measurements.
-6. Train the recurrent model.
-7. Evaluate the model on forecasting tasks.
 
 ⸻
 
@@ -194,13 +144,13 @@ If you use the QPRU architecture, implementation, or ideas from this repository 
 
 BibTeX
 
-@inproceedings{sadeghi2026qpru,
-  author    = {Mahyar Sadeghi Garjan and Tommaso Cesari and Michel Barbeau},
-  title     = {A Quantum Variational Approach to Prototypical Recurrent Unit},
-  booktitle = {2026 IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC)},
-  pages     = {776--780},
-  year      = {2026},
-  doi       = {10.1109/QCNC69040.2026.00126}
+@inproceedings{garjan2026quantum,
+  title={A Quantum Variational Approach to Prototypical Recurrent Unit},
+  author={Garjan, Mahyar Sadeghi and Cesari, Tommaso and Barbeau, Michel},
+  booktitle={2026 International Conference on Quantum Communications, Networking, and Computing (QCNC)},
+  pages={776--780},
+  year={2026},
+  organization={IEEE}
 }
 
 Paper:
@@ -224,7 +174,8 @@ Related Resources
 Authors
 
 Mahyar Sadeghi Garjan
-University of Ottawa
+Ph.D, University of Ottawa
+linkedin: linkedin.com/in/mahyarsadeghi
 
 Tommaso Cesari
 University of Ottawa
@@ -232,8 +183,4 @@ University of Ottawa
 Michel Barbeau
 University of Ottawa
 
-⸻
 
-License
-
-Please see the repository license for terms of use.
