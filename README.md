@@ -59,9 +59,6 @@ The architecture is based on two quantum recurrent gates:
 
 The QPRU receives the current input $x_t$ together with the previous hidden state $s_{t-1}$.
 
-<p align="center">
-  <img src="images/architecture.svg" alt="QPRU Architecture" width="850">
-</p>
 
 Architecture
 
