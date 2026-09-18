@@ -37,26 +37,14 @@ M. Sadeghi Garjan, T. Cesari, and M. Barbeau, “A Quantum Variational Approach 
 
 Repository Contents
 
-The repository contains the following main components:
-
-QPRU-Quantum-Prototypical-Recurrent-Unit/
-│
-├── images/
-│   ├── architecture.svg
-│   └── VQC.svg
-│
-├── *.ipynb
-│
-└── README.md
 
 The Jupyter notebooks provide executable implementations and examples of:
 
 * QPRU
 * QGRU
 * QLSTM
-* Quantum recurrent gates
 * Variational quantum circuits (VQCs)
-* Time-series forecasting experiments
+* Time-series forecasting experiment (sin Function for simplicity in this case)
 
 ⸻
 
