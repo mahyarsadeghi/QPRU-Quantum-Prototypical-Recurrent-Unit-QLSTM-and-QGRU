@@ -30,7 +30,8 @@ For the theoretical formulation, architecture, and experimental evaluation of QP
 
 M. Sadeghi Garjan, T. Cesari, and M. Barbeau, “A Quantum Variational Approach to Prototypical Recurrent Unit,” 2026 IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC), pp. 776–780, 2026.
 
-📄 Paper: arXiv:2609.04354
+📄 Paper: https://ieeexplore.ieee.org/document/11500435
+ or https://arxiv.org/abs/2609.04354
 
 ⸻
 
